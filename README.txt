@@ -1,9 +1,9 @@
 README
 
 This repository is specifically created for Umich instructors for ROB 535 class. Please follow the following steps to successfully run this project. 
-The mainFile is in .ipynb format and hence can be run on Jupyter Notebook. The MATLAB code creating_bbox.m is given to convert the 11-element bbox.bin file
-to a 5-element bbox2D.bin file containing 2-D coordinates of the bounding boxes for training data. The MATLAB file should be kept in the same folder as the
-training data. The name of the folder inside the code can be changed based on your specific naming scheme.
+Download the zip. The mainFile is in .ipynb format and hence can be run on Jupyter Notebook. The MATLAB code creating_bbox.m is given to convert the 
+11-element bbox.bin file to a 5-element bbox2D.bin file containing 2-D coordinates of the bounding boxes for training data. The MATLAB file should be kept 
+in the same folder as the training data. The name of the folder inside the code can be changed based on your specific naming scheme.
 
 Step 1: Ensure you have the following modules downloaded:
 
@@ -20,8 +20,6 @@ from PIL import Image
 import glob
 %matplotlib inline
 import torchvision
-
-Download coco_eval.py, coco_utils.py, engine.py, extract_info.py, mainFile.ipynb transforms.py, and utils.py.
 
 Step 2: Download the training and test files from the google drive.
 Step 3: Open mainFile.ipynb. Change the directory of the training and the test data under the sections marked Train Val image filtering list and 
